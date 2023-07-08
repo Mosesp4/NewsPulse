@@ -2,23 +2,23 @@ import React from 'react';
 
 const Body = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-[#0b0912] py-6 relative sm:px-10 px-12 text-white overflow-hidden justify-between align-middle">
+    <div className="min-h-screen flex flex-col bg-[#0b0912] py-4 sm:py-6 relative sm:px-10 px-6 text-white overflow-hidden justify-between align-middle">
       {/* gradients */}
       <div className="gradient-01 z-0 absolute"></div>
       <div className="gradient-02 z-0 absolute"></div>
 
-      <main className="container mx-auto px-6 pt-16 flex-1 text-center">
-        <h2 className="text-2xl sm:text-4xl md:text-4xl lg:text-4xl uppercase">Welcome to Mac Chris Services</h2>
-        <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-8xl uppercase font-black mb-8">
+      <main className="container mx-auto px-4 sm:px-6 pt-10 sm:pt-16 flex-1 text-center">
+        <h2 className="text-xl sm:text-4xl md:text-4xl lg:text-4xl uppercase">Welcome to Mac Chris Services</h2>
+        <h1 className="text-2xl sm:text-5xl md:text-5xl lg:text-8xl uppercase font-black mb-6">
           Top-Notch Services tailored to meet your unique needs.
         </h1>
 
-        <p className="text-base sm:text-lg md:text-lg lg:text-2xl mb-8">
+        <p className="text-base sm:text-lg md:text-lg lg:text-2xl mb-6">
           Join our community of satisfied clients and experience the difference with Mac Chris Services.
           Let's unlock success together!
         </p>
 
-        <div className="text-lg sm:text-2xl md:text-2xl lg:text-3xl py-2 px-4 sm:py-4 sm:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-8 rounded-full">
+        <div className="text-lg sm:text-2xl md:text-2xl lg:text-3xl py-2 px-4 sm:py-4 sm:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 w-fit mx-auto mb-6 rounded-full">
           10,534 members
         </div>
 
@@ -36,7 +36,7 @@ const Body = () => {
               type="email"
               name="EMAIL"
               id="mce-EMAIL"
-              className="text-2xl placeholder:text-gray-400 placeholder-italic py-4 px-6 sm:px-10 lg:py-6 lg:px-12 bg-white bg-opacity-10 focus:bg-opacity-20 duration-150 sm:rounded-tr-none sm:rounded-br-none rounded-full outline-none mb-4 sm:mb-0"
+              className="text-xl placeholder-gray-400 placeholder-italic py-3 px-4 sm:px-6 lg:py-4 lg:px-6 bg-white bg-opacity-10 focus:bg-opacity-20 duration-150 sm:rounded-tr-none sm:rounded-br-none rounded-full outline-none mb-4 sm:mb-0"
               required
             />
             <input
@@ -44,7 +44,7 @@ const Body = () => {
               value="Join Today"
               name="member[subscribe]"
               id="member_submit"
-              className="bg-orange-500 sm:rounded-tl-none sm:rounded-bl-none rounded-full text-2xl py-4 px-6 sm:px-10 lg:py-6 lg:px-12 font-bold uppercase cursor-pointer hover:opacity-75 duration-150"
+              className="bg-orange-500 sm:rounded-tl-none sm:rounded-bl-none rounded-full text-xl py-3 px-4 sm:px-6 lg:py-4 lg:px-6 font-bold uppercase cursor-pointer hover:opacity-75 duration-150"
             />
           </div>
 
@@ -62,20 +62,20 @@ const Body = () => {
         </form>
       </main>
 
-      <footer className="container mx-auto p-6">
+      <footer className="container mx-auto p-4">
         <div className="flex flex-col sm:flex-row items-center justify-between">
           <p className="mb-4 sm:mb-0 sm:text-xl">Built with 💖 by Moses Echela</p>
 
-          <div className="flex -mx-6">
-            <a href="#" className="mx-3 hover:opacity-80 duration-150">
+          <div className="flex -mx-2">
+            <a href="#" className="mx-2 hover:opacity-80 duration-150">
               About us
             </a>{' '}
             |
-            <a href="#" className="mx-3 hover:opacity-80 duration-150">
+            <a href="#" className="mx-2 hover:opacity-80 duration-150">
               Privacy
             </a>{' '}
             |
-            <a href="#" className="mx-3 hover:opacity-80 duration-150">
+            <a href="#" className="mx-2 hover:opacity-80 duration-150">
               Contact
             </a>
           </div>
