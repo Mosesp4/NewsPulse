@@ -2,23 +2,23 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <div className=" flex flex-col  py-6 relative sm:px-16 px-12
-		text-white overflow-hidden  justify-between align-middle">
+    <div className="min-h-screen flex flex-col bg-[#0b0912]  py-6 
+    relative sm:px-10 px-12 text-white overflow-hidden  justify-between align-middle">
 		 {/* gradients */}
-		 {/* <div className="gradient-01 z-0 absolute"></div>
-		 <div className="gradient-02 z-0 absolute"></div> */}
+		 <div className="gradient-01 z-0 absolute"></div>
+		 <div className="gradient-02 z-0 absolute"></div>
 		 
 			<main className="container mx-auto px-6 pt-16 flex-1 text-center">
 
 				<h2 className="text-2xl md:text-4xl lg:text-4xl uppercase">Welcome to Mac Chris Services</h2>
-				<h1 className="text-3xl md:text-4xl lg:text-8xl uppercase font-black mb-8"> 
+				<h1 className="text-3xl md:text-5xl lg:text-8xl uppercase font-black mb-8"> 
 				Top-Notch Services tailored to meet your 
 				unique needs. 
 				</h1>
 
 				<p className="text-base md:text-lg lg:text-2xl mb-8">
 				 Join our community of satisfied clients 
-				and experience the difference with Mac Chris Services. <br />
+				and experience the difference with Mac Chris Services. 
 				Let's unlock success together!
 				</p>
 
