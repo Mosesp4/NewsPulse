@@ -2,13 +2,13 @@ import React from 'react';
 
 const Body = () => {
   return (
-    <div className="min-h-screen flex flex-col py-4 sm:py-2 relative sm:px-10 px-4 
+    <div className="min-h-screen flex flex-col py-2 sm:py-2 relative sm:px-10 px-4 
 	text-white overflow-hidden justify-between align-middle">
       
-      <main className="container mx-auto px-4 sm:px-4 pt-10 sm:pt-16 flex-1 text-center">
-        <h2 className="text-xl sm:text-4xl md:text-4xl lg:text-4xl uppercase">Welcome to Mac Chris Services</h2>
-        <h1 className="text-2xl sm:text-5xl md:text-5xl lg:text-8xl uppercase 
-		font-black mb-4">
+      <main className="container mx-auto px-4 sm:px-4 pt-6 sm:pt-16 flex-1 text-center">
+        <h2 className="text-1xl sm:text-4xl md:text-4xl lg:text-4xl ">Welcome to Mac Chris Services</h2>
+        <h1 className="text-1xl sm:text-5xl md:text-5xl lg:text-8xl uppercase 
+		font-black mb-3">
           Top-Notch Services tailored to meet your unique needs.
         </h1>
 
