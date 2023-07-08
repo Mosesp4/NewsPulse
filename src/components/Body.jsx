@@ -11,7 +11,7 @@ const Body = () => {
 			<main className="container mx-auto px-6 pt-16 flex-1 text-center">
 
 				<h2 className="text-2xl md:text-4xl lg:text-4xl uppercase">Welcome to Mac Chris Services</h2>
-				<h1 className="text-3xl md:text-5xl lg:text-8xl uppercase font-black mb-8"> 
+				<h1 className="text-3xl md:text-4xl lg:text-8xl uppercase font-black mb-8"> 
 				Top-Notch Services tailored to meet your 
 				unique needs. 
 				</h1>
